@@ -1,0 +1,33 @@
+# Version: 8.10.2.37 (ef8c2f7)
+# [first argument, ignore] # /Users/b099l3/SO_TESTING/SO_Xam_actvity/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.10.2.37/bin/mtouch \
+	--cache \
+	/Users/b099l3/SO_TESTING/SO_Xam_actvity/obj/iPhone/Debug/mtouch-cache \
+	--dev \
+	/Users/b099l3/SO_TESTING/SO_Xam_actvity/bin/iPhone/Debug/SO_Xam_actvity.app \
+	--executable \
+	SO_Xam_actvity \
+	--debug \
+	--profiling \
+	--linksdkonly \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	8.3 \
+	--targetver \
+	7.1 \
+	--abi=armv7,arm64 \
+	--symbollist \
+	/Users/b099l3/SO_TESTING/SO_Xam_actvity/obj/iPhone/Debug/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	/Users/b099l3/SO_TESTING/SO_Xam_actvity/bin/iPhone/Debug//SO_Xam_actvity.exe \

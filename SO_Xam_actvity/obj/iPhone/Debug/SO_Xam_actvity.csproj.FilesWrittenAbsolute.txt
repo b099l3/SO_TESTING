@@ -1,0 +1,10 @@
+/Users/b099l3/SO_TESTING/SO_Xam_actvity/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/b099l3/SO_TESTING/SO_Xam_actvity/obj/iPhone/Debug/ibtool/LaunchScreen.nib
+/Users/b099l3/SO_TESTING/SO_Xam_actvity/obj/iPhone/Debug/ibtool/ScrollViewiOS7.nib
+/Users/b099l3/SO_TESTING/SO_Xam_actvity/obj/iPhone/Debug/actool/partial-info.plist
+/Users/b099l3/SO_TESTING/SO_Xam_actvity/obj/iPhone/Debug/actool/asset-manifest.plist
+/Users/b099l3/SO_TESTING/SO_Xam_actvity/obj/iPhone/Debug/
+/Users/b099l3/SO_TESTING/SO_Xam_actvity/bin/iPhone/Debug/SO_Xam_actvity.exe.mdb
+/Users/b099l3/SO_TESTING/SO_Xam_actvity/bin/iPhone/Debug/SO_Xam_actvity.exe
+/Users/b099l3/SO_TESTING/SO_Xam_actvity/obj/iPhone/Debug/SO_Xam_actvity.exe
+/Users/b099l3/SO_TESTING/SO_Xam_actvity/obj/iPhone/Debug/SO_Xam_actvity.exe.mdb
