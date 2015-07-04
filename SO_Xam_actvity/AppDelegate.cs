@@ -26,7 +26,7 @@ namespace SO_Xam_actvity
 			#endif
 
 			Window = new UIWindow (UIScreen.MainScreen.Bounds);
-			var root = new ScrollViewiOS7 ();
+			var root = new ScrollViewiOS7_code();
 			Window.RootViewController = root;
 			Window.MakeKeyAndVisible ();
 

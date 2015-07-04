@@ -19,10 +19,16 @@ namespace SO_Xam_actvity
 		UIKit.UIView BlueView { get; set; }
 
 		[Outlet]
+		UIKit.NSLayoutConstraint filterTop { get; set; }
+
+		[Outlet]
 		UIKit.NSLayoutConstraint GreenTopConstraint { get; set; }
 
 		[Outlet]
 		UIKit.UIView GreenView { get; set; }
+
+		[Outlet]
+		UIKit.UIView PurpleView { get; set; }
 
 		[Outlet]
 		UIKit.NSLayoutConstraint RedTopConstraint { get; set; }
@@ -35,19 +41,19 @@ namespace SO_Xam_actvity
 		
 		void ReleaseDesignerOutlets ()
 		{
-			if (scrollView != null) {
-				scrollView.Dispose ();
-				scrollView = null;
-			}
-
-			if (RedView != null) {
-				RedView.Dispose ();
-				RedView = null;
+			if (BlueTopConstraint != null) {
+				BlueTopConstraint.Dispose ();
+				BlueTopConstraint = null;
 			}
 
 			if (BlueView != null) {
 				BlueView.Dispose ();
 				BlueView = null;
+			}
+
+			if (GreenTopConstraint != null) {
+				GreenTopConstraint.Dispose ();
+				GreenTopConstraint = null;
 			}
 
 			if (GreenView != null) {
@@ -60,14 +66,24 @@ namespace SO_Xam_actvity
 				RedTopConstraint = null;
 			}
 
-			if (GreenTopConstraint != null) {
-				GreenTopConstraint.Dispose ();
-				GreenTopConstraint = null;
+			if (RedView != null) {
+				RedView.Dispose ();
+				RedView = null;
 			}
 
-			if (BlueTopConstraint != null) {
-				BlueTopConstraint.Dispose ();
-				BlueTopConstraint = null;
+			if (scrollView != null) {
+				scrollView.Dispose ();
+				scrollView = null;
+			}
+
+			if (filterTop != null) {
+				filterTop.Dispose ();
+				filterTop = null;
+			}
+
+			if (PurpleView != null) {
+				PurpleView.Dispose ();
+				PurpleView = null;
 			}
 		}
 	}

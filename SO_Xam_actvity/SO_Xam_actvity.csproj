@@ -88,6 +88,8 @@
     <Compile Include="ScrollViewiOS7.designer.cs">
       <DependentUpon>ScrollViewiOS7.cs</DependentUpon>
     </Compile>
+    <Compile Include="ScrollViewiOS7_code.cs" />
+    <Compile Include="CustomScroller.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

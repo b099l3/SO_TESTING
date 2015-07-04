@@ -11,8 +11,10 @@
                 <outlet property="BlueView" destination="0lr-Z3-awa" id="FwI-ff-chS"/>
                 <outlet property="GreenTopConstraint" destination="6ht-Fb-T3n" id="bJ9-Zt-ydf"/>
                 <outlet property="GreenView" destination="88R-wu-zxB" id="o8M-da-pKM"/>
+                <outlet property="PurpleView" destination="jy0-vB-pYm" id="Wxm-pn-h8y"/>
                 <outlet property="RedTopConstraint" destination="NHV-3f-CoX" id="XPz-LU-yI4"/>
                 <outlet property="RedView" destination="0lr-Z3-awa" id="7bx-jZ-ZKs"/>
+                <outlet property="filterTop" destination="DzL-5g-7jR" id="njo-io-qXx"/>
                 <outlet property="scrollView" destination="rBu-EV-ujm" id="9sh-7m-uRU"/>
                 <outlet property="view" destination="iN0-l3-epB" id="kCW-yf-GMq"/>
             </connections>
@@ -23,7 +25,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rBu-EV-ujm">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <rect key="frame" x="0.0" y="84" width="320" height="484"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g6R-RU-80A" userLabel="RedView">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
@@ -58,12 +60,32 @@
                         <constraint firstItem="g6R-RU-80A" firstAttribute="leading" secondItem="rBu-EV-ujm" secondAttribute="leading" id="qaj-3N-4pE"/>
                     </constraints>
                 </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jy0-vB-pYm" userLabel="View2">
+                    <rect key="frame" x="0.0" y="42" width="320" height="42"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="VRx-GI-MrE"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vrC-Q1-eL5">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="42"/>
+                    <color key="backgroundColor" red="0.024384380269999999" green="1" blue="0.42868704790000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="6NV-a3-cb8"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="rBu-EV-ujm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="DUB-6j-zQF"/>
+                <constraint firstItem="rBu-EV-ujm" firstAttribute="top" secondItem="jy0-vB-pYm" secondAttribute="bottom" id="5Jq-dF-Aty"/>
+                <constraint firstItem="jy0-vB-pYm" firstAttribute="top" secondItem="vrC-Q1-eL5" secondAttribute="bottom" id="DzL-5g-7jR"/>
+                <constraint firstItem="jy0-vB-pYm" firstAttribute="trailing" secondItem="vrC-Q1-eL5" secondAttribute="trailing" id="IcP-OZ-CK9"/>
+                <constraint firstAttribute="trailing" secondItem="vrC-Q1-eL5" secondAttribute="trailing" id="NEJ-qc-jIC"/>
+                <constraint firstItem="vrC-Q1-eL5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Y9B-Xh-fFR"/>
+                <constraint firstItem="vrC-Q1-eL5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ZvC-F3-eKI"/>
                 <constraint firstAttribute="bottom" secondItem="rBu-EV-ujm" secondAttribute="bottom" id="kl0-7j-zd7"/>
                 <constraint firstItem="rBu-EV-ujm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="l30-xc-eBI"/>
+                <constraint firstItem="jy0-vB-pYm" firstAttribute="leading" secondItem="vrC-Q1-eL5" secondAttribute="leading" id="olo-bK-qmH"/>
                 <constraint firstAttribute="trailing" secondItem="rBu-EV-ujm" secondAttribute="trailing" id="vF1-x0-dU7"/>
             </constraints>
         </view>
